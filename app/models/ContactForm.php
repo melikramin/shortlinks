@@ -34,11 +34,9 @@
         }
 
         public function mail() {
-            //$to = "melik.ramin@gmail.com";
-            $message = 'Имя: ' . $this->name . '<br>Возраст: ' . $this->age . '<br>Сообщение: ' . $this->message;
 
-          
-            
+            $mailBody = 'Имя: ' . $this->name . '<br>Возраст: ' . $this->age . '<br>Сообщение: ' . $this->message;
+                      
             $mail = new PHPMailer(true);
 
             define('SMTP_SERVER', 'smtp.geotek24.ru');
@@ -49,7 +47,7 @@
             define('SMTP_SENT_TO', $this->email);  // Please type your mail
             define('SMTP_SENT_NAME', $this->name);  // Please type your name
 
-            $mailBody = $message;
+            
 
             try {
                 //Server settings
