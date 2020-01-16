@@ -9,6 +9,7 @@
 
             if(isset($_POST['exit_btn'])) {
                 $user->logOut();
+                $this->view('home/index');
                 exit();
             }
 

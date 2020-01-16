@@ -65,7 +65,7 @@
         public function logOut() {
             setcookie('login', $this->login, time() - 3600, '/');
             unset($_COOKIE['login']);
-            header('Location: /user/auth');
+            header('Location: /');
         }
 
         public function auth($login, $pass) {

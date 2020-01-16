@@ -39,11 +39,11 @@
                       
             $mail = new PHPMailer(true);
 
-            define('SMTP_SERVER', 'smtp.geotek24.ru');
-            define('SMTP_PORT', 25);
-            define('SMTP_USERNAME', 'info');
-            define('SMTP_PASSWORD', '5LlqB7L5TY14');
-            define('SMTP_SENT_FROM', 'info@geotek24.ru');
+            define('SMTP_SERVER', 'smtp.beget.com');
+            define('SMTP_PORT', 2525);
+            define('SMTP_USERNAME', 'kegi@kuplukegi.ru');
+            define('SMTP_PASSWORD', 'nD*4kwWv');
+            define('SMTP_SENT_FROM', 'kegi@kuplukegi.ru');
             define('SMTP_SENT_TO', $this->email);  // Please type your mail
             define('SMTP_SENT_NAME', $this->name);  // Please type your name
 
