@@ -11,7 +11,6 @@ $(document).ready(function(){
         data: {'exit_btn' : exit_btn},
         dataType: 'html',
         success: function(data) {
-            location.href = '/';
             document.location.reload(true);
           }
     });

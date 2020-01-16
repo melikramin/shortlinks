@@ -14,6 +14,7 @@
         else:
     ?>
     <a class="btn btn-outline-primary mb-2" href="/user">Кабинет пользователя</a>
+    <button class="btn btn-danger mb-2" id="exit_btn_ok">Выйти</button>
     <?php
         endif;
     ?>
